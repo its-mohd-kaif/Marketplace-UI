@@ -1,0 +1,62 @@
+/* CSS for Footer Component */
+
+.footerSection {
+  margin-top: 79.2px;
+  font-family: "Heldane Display";
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ful {
+  list-style-type: none;
+}
+
+.liTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ful > li {
+  margin-bottom: 7.92px;
+  cursor: pointer;
+}
+
+.liSocial {
+  padding-top: 7.92px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.liSocialDiv {
+  width: 31.67px;
+  height: 31.67px;
+  background: rgb(65, 61, 238, 0.1);
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Media Query */
+@media screen and (max-width: 1115px) {
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ful {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .footer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

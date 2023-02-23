@@ -1,0 +1,39 @@
+/* CSS for Product Component */
+.productCardSection {
+  margin-top: 39.59px;
+}
+
+.productTitle {
+  font-family: "Moderat";
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 35.65px 81.56px 35.65px 45px;
+  margin-bottom: 31.67px;
+  font-weight: 600;
+}
+
+.productCards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 81.56px 0 45px;
+}
+
+/* Media Query */
+@media screen and (max-width: 996px) {
+  .productCards {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .productCards {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 1em;
+    justify-content: center;
+  }
+}

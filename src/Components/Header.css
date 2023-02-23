@@ -1,0 +1,65 @@
+/* Header Component CSS*/
+.ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 64.15px;
+  font-family: "Moderat";
+  font-size: 14px;
+  font-weight: 500;
+  padding: 35.65px 81.56px 35.65px 45px;
+}
+
+.liTxt {
+  padding-top: 0.55em;
+}
+
+.logoImg {
+  width: 155.19px;
+  padding-top: 1em;
+}
+
+.cartLi {
+  width: 42.75px;
+  height: 42.75px;
+  background: #413dee;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 82.34px;
+  margin-right: -14.45px;
+}
+
+.cartImg {
+  padding-top: 0.55em;
+}
+
+.userImg {
+  width: 42.75px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1115px) {
+  .ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+  .cartLi {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+  }
+  .ul > li {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .ul {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .cartLi {
+    margin-bottom: 1em;
+  }
+}

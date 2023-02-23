@@ -1,0 +1,71 @@
+/* CSS for Hero section component */
+
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Moderat";
+}
+
+.heroColumn1 {
+  margin-left: 35.65px;
+}
+
+.bannerTxt {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 155.2px;
+  margin-bottom: 19px;
+}
+
+.bannerBigTxt {
+  font-family: "Heldane Display";
+  font-size: 50.7px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.bannerBtns {
+  display: flex;
+  column-gap: 22.17px;
+}
+
+.exploreBtn {
+  background: #413dee;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 11.09px 19.8px;
+}
+
+.topDeals {
+  padding-top: 0.8em;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bannerImg {
+  width: 616px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1115px) {
+  .bannerTxt {
+    margin: 0;
+  }
+  .bannerImg {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .heroSection {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .bannerBtns {
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+}

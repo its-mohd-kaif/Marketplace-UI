@@ -1,0 +1,66 @@
+/* CSS for Subscribe Component */
+.subscribeSection {
+  margin-top: 80px;
+  background: #413dee;
+  border-radius: 20px;
+  font-family: "Heldane Display";
+  color: white;
+  text-align: center;
+}
+
+.subscribeTitle {
+  font-size: 39.59px;
+  padding-top: 77.59px;
+}
+
+.inputSection {
+  width: 411.76px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 77.59px;
+}
+
+.input {
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 20.7px 0px 20.7px 35px;
+}
+
+.sbusBtnDiv {
+  margin-top: -3.5em;
+  margin-right: -17em;
+}
+
+.subsBtn {
+  padding: 11px 28.5px;
+  background: #413dee;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media screen and (max-width: 880px) {
+  .inputSection {
+    width: 60%;
+  }
+
+  .sbusBtnDiv {
+    margin-top: -3.5em;
+    margin-right: 0;
+    margin-left: 17em;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .sbusBtnDiv {
+    margin-left: 10em;
+  }
+}
+@media screen and (max-width: 532px) {
+  .sbusBtnDiv {
+    margin-left: 7em;
+  }
+}
