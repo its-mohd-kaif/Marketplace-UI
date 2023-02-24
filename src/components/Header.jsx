@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../Images/YOUR LOGO.png";
-import cart from "../Images/Vector.png";
-import user from "../Images/Ellipse 67.png";
+import logo from "../images/YOUR LOGO.png";
+import cart from "../images/Vector.png";
+import user from "../images/Ellipse 67.png";
 import "./Header.css";
 function Header() {
   // Header Component

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
-import heart from "../Images/Vector(2).png";
-import item from "../Images/Image.png";
+import heart from "../images/Vector(2).png";
+import item from "../images/Image.png";
 function Card() {
   return (
     <div className="productCard">

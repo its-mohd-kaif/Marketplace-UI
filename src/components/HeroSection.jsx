@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../Images/Rectangle 10342.png";
+import banner from "../images/Rectangle 10342.png";
 import "./HeroSection.css";
 function HeroSection() {
   // Hero Section Component

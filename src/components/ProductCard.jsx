@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../Images/Vector(1).png";
+import arrow from "../images/Vector(1).png";
 import Card from "./Card";
 import "./ProductCard.css";
 function ProductCard(props) {

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import fb from "../Images/fb.png";
-import tw from "../Images/tw.png";
-import ig from "../Images/ig.png";
-import inImg from "../Images/in.png";
+import fb from "../images/fb.png";
+import tw from "../images/tw.png";
+import ig from "../images/ig.png";
+import inImg from "../images/in.png";
 function Footer() {
   // Footer Component
   return (
